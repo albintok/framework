@@ -1,0 +1,11 @@
+class Vechicles(models.Model):
+    name=models.CharField(max_length=20)
+    colour=models.CharField(max_length=20)
+    cc=models.CharField(max_length=20)
+    price=models.PositiveIntegerField()
+    brand=models.CharField(max_length=20)
+
+
+orm query
+
+1)create object  = Modelname.objects.create(field1="value1",field2="value2",,,,,,,)
